@@ -366,7 +366,7 @@
 
        <img width="640" height="103" alt="image" src="https://github.com/user-attachments/assets/f8eee6d0-ad97-47ed-ae2b-5c04beb95c49" />
 
-      @Override menunjukkan method ini menimpa method toString() dari Travel.
+       @Override menunjukkan method ini menimpa method toString() dari Travel.
 
     3. Di Subclass PremiumTravel.java:
 
