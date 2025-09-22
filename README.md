@@ -353,3 +353,26 @@
           - juga pakai extends Travel.
           - Bisa menambahkan fitur berbeda (misalnya fasilitas lebih lengkap, harga lebih mahal).
           - Bisa override method juga.
+
+13. Lokasi untuk overriding
+
+    1. Di Superclass (Travel.java):
+
+       <img width="846" height="92" alt="image" src="https://github.com/user-attachments/assets/d88a54c4-cf73-4ba6-a8bd-50400e9dc3ca" />
+
+          Ini yang nantinya dioverride oleh subclass.
+       
+    2. Di Subclass EkonomiTravel.java:
+
+       <img width="640" height="103" alt="image" src="https://github.com/user-attachments/assets/f8eee6d0-ad97-47ed-ae2b-5c04beb95c49" />
+
+      @Override menunjukkan method ini menimpa method toString() dari Travel.
+
+    3. Di Subclass PremiumTravel.java:
+
+       <img width="638" height="109" alt="image" src="https://github.com/user-attachments/assets/2c6d9505-293d-4975-8e63-b236e5482c96" />
+
+       Ini sama dengan yang ada di EkonomiTravel, bedanya dengan EkonomiTravel hanya pada teks label.
+
+       
+
